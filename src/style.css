@@ -1,0 +1,41 @@
+body, html {
+    background-color:antiquewhite;
+    height: 87vh;
+}
+
+.content {
+    padding: 0.2rem calc((100vw - 1000px) / 2);
+    max-height: 87vh;
+}
+  
+.container {
+    display: grid;
+    grid-template-columns: [first] 40% [line1] auto [end];
+    max-height: 100vh;
+}
+  
+#home-left {
+    grid-column-start: first;
+    grid-column-end: span 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Consolas, Courier, Tahoma, Geneva, sans-serif;
+}
+  
+#home-right {
+    grid-column-start: line1;
+    grid-column-end: end;
+}
+
+#home-content {
+    float: left;
+    vertical-align: center;
+}
+
+#home-img {
+    max-height: 50vh;
+    margin: auto;
+    display: flex;
+    padding-block: 10vh;
+}

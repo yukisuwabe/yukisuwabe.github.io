@@ -3,8 +3,7 @@ import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-  background: #679ded;
-  height: 85px;
+  height: 13vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,21 +12,21 @@ export const Nav = styled.nav`
 `;
 export const NavLogo = styled(Link)`
   cursor: pointer;
-  color: #fff;
+  color: black;
   font-size: 2rem;
   text-decoration: none;
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: Consolas, Courier, Tahoma, Geneva, sans-serif;
 `;
 
 export const NavLink = styled(Link)`
-color: #fff;
+color: grey;
 display: flex;
 align-items: center;
 text-decoration: none;
 padding: 0 1rem;
 height: 100%;
 cursor: pointer;
-font-family: Tahoma, Geneva, sans-serif;
+font-family: Consolas, Courier, Tahoma, Geneva, sans-serif;
 &:hover {
   color: black;
 }
@@ -35,7 +34,7 @@ font-family: Tahoma, Geneva, sans-serif;
 
 export const Bars = styled(FaBars)`
   display: none;
-  color: #fff;
+  color: grey;
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;

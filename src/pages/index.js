@@ -1,12 +1,21 @@
 import React from 'react';
-import '../App.css'
+import '../style.css'
+import myAvatar from '../files/character.svg'
 
 const Home = () => {
     return (
-        <body>
-            <h1>Hello World!</h1>
-        </body>
+        <div class="content" >
+            <div class="container">
+                <div id="home-left">
 
+                    <h1>Hello, I am Yuki Suwabe!</h1>
+
+                </div>
+                <div id="home-right">
+                    <img id= "home-img" src= {myAvatar} alt="SVG as an image"></img>
+                </div>
+            </div>
+        </div>
     );
 };
 
