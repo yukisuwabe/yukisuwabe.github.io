@@ -12,10 +12,14 @@ export const Nav = styled.nav`
 `;
 export const NavLogo = styled(Link)`
   cursor: pointer;
-  color: black;
+  color: grey;
   font-size: 2rem;
   text-decoration: none;
   font-family: Consolas, Courier, Tahoma, Geneva, sans-serif;
+  &:hover {
+    color: black;
+    text-decoration: none;
+  }
 `;
 
 export const NavLink = styled(Link)`
@@ -29,6 +33,10 @@ cursor: pointer;
 font-family: Consolas, Courier, Tahoma, Geneva, sans-serif;
 &:hover {
   color: black;
+  text-decoration: none;
+}
+&.inactive {
+  color: grey;
 }
 `;
 

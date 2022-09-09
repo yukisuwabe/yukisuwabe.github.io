@@ -7,13 +7,13 @@ const NavBar = () => {
     return (
         <>
             <Nav>
-                <NavLogo to="/">
+                <NavLogo exact to="/">
                     Yuki Suwabe
                 </NavLogo>
                 <Bars />
 
                 <NavMenu>
-                    <NavLink to="/" activeStyle={{ color: 'black'}} >
+                    <NavLink exact to="/" activeStyle={{ color: 'black'}} >
                         Home
                     </NavLink>
                     <NavLink to="/about" activeStyle={{ color: 'black'}} >
