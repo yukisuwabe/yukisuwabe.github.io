@@ -5,14 +5,14 @@ import myAvatar from '../files/character.svg'
 const Home = () => {
     return (
         <div class="content" >
-            <div class="container">
+            <div id="home-container">
                 <div id="home-left">
 
                     <h1>Hello, I am Yuki Suwabe!</h1>
 
                 </div>
                 <div id="home-right">
-                    <img id= "home-img" src= {myAvatar} alt="SVG as an image"></img>
+                    <img id= "home-img" src= {myAvatar} alt="SVG"></img>
                 </div>
             </div>
         </div>

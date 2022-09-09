@@ -1,14 +1,21 @@
 body, html {
     background-color:antiquewhite;
     height: 87vh;
+    font-family: Consolas, Courier, Tahoma, Geneva, sans-serif;
 }
 
 .content {
     padding: 0.2rem calc((100vw - 1000px) / 2);
     max-height: 87vh;
 }
-  
+
 .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+  
+#home-container {
     display: grid;
     grid-template-columns: [first] 40% [line1] auto [end];
     max-height: 100vh;
@@ -38,4 +45,88 @@ body, html {
     margin: auto;
     display: flex;
     padding-block: 10vh;
+}
+
+.column {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+#rightStuff {
+    align-items:flex-start;
+}
+
+.row {
+    display: flex;
+}
+
+.profile {
+    border-radius: 50%;
+    height: 20vh;
+}
+
+.heading {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 150;
+}
+
+
+
+p {
+    font-weight: 150;
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+#aboutMeP {
+    line-height: 26px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background: rgba(159, 131, 140, 0.35);
+    border-radius: 10px;
+    flex: 0 1 28%;
+    padding: 0.5em 1em;
+    margin: 0 auto;
+}
+
+.card_img {
+    border-radius: 10px;
+    width: 20em;
+    margin-top: 20px;
+}
+
+#p_card {
+    font-size: 16px;
+}
+
+#h2_card {
+    font-size: 28px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: #53422b;
+    text-decoration: underline;
 }
