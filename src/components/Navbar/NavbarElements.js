@@ -32,6 +32,7 @@ font-family: Consolas, Courier, Tahoma, Geneva, sans-serif;
 }
 `;
 
+
 export const Bars = styled(FaBars)`
   display: none;
   color: grey;

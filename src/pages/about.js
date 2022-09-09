@@ -17,7 +17,8 @@ const About = () => {
                     <p>Birthplace: Tokyo, Japan</p>
                 </div>
                 <div class="column" id='rightStuff'>
-                    <p id='aboutMeP'>Hi! My name is Yuki Suwabe and I am currently a sophomore in Cornell Unviersity, majoring in Computer Science at the College of Engineering. I am interested in Software Engineering, mainly the backend side, but still learning a lot in general!</p>
+                    <p id='aboutMeP'>Hi! My name is Yuki Suwabe and I am currently a sophomore in Cornell Unviersity, majoring in Computer Science at the College of Engineering. I am interested in Software Engineering, mainly the backend side, but still learning a lot in general! 
+                    On campus I am part of the Logistics Team for the BigRed//Hacks organization where we organize the longest student-run hackathon on campus.</p>
                     <p id='aboutMeP'>I was born in Japan and raised in New York City. I became interested in Computer Science when I participated in a Girls Who Code program at Columbia University in middle school. Since then, I've worked on multiple projects as well as participated in Software Design programs over the summer.</p>
                     <p id='aboutMeP'>I love to watch ballet, play video games, and watch Japanese TV shows during my free time!</p>
                     <p id='aboutMeP'>Please feel free to contact me!</p>

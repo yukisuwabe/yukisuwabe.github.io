@@ -5,6 +5,14 @@
     width:100%;
     height: 90px;
     align-items: center;
+    align-content: center;
+}
+
+#footer {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo {

@@ -4,7 +4,7 @@ import myAvatar from '../files/character.svg'
 
 const Home = () => {
     return (
-        <div class="content" >
+        <div class="content" id="home_content">
             <div id="home-container">
                 <div id="home-left">
 

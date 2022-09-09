@@ -4,15 +4,20 @@ body, html {
     font-family: Consolas, Courier, Tahoma, Geneva, sans-serif;
 }
 
-.content {
+#home_content {
     padding: 0.2rem calc((100vw - 1000px) / 2);
+    
+}
+.content {
+    padding: 0.2rem 20vw;
     max-height: 87vh;
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    row-gap: 20px;
 }
   
 #home-container {
@@ -102,7 +107,7 @@ p {
     align-content: center;
     background: rgba(159, 131, 140, 0.35);
     border-radius: 10px;
-    flex: 0 1 28%;
+    flex: 0 0 20%;
     padding: 0.5em 1em;
     margin: 0 auto;
 }
@@ -129,4 +134,22 @@ a:link {
 a:hover {
     color: #53422b;
     text-decoration: underline;
+}
+a:visited {
+    color: black;
+}
+
+#NavBar {
+    color: grey;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+    font-family: Consolas, Courier, Tahoma, Geneva, sans-serif;
+}
+
+#NavBar:hover {
+    color: black;
 }
