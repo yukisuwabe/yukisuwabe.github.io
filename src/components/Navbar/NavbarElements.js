@@ -1,6 +1,7 @@
 import { FaBars } from "react-icons/fa";
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
+import '../../satoshi.css';
 
 export const Nav = styled.nav`
   height: 13vh;
@@ -15,7 +16,8 @@ export const NavLogo = styled(Link)`
   color: grey;
   font-size: 2rem;
   text-decoration: none;
-  font-family: Consolas, Courier, Tahoma, Geneva, sans-serif;
+  font-family:'Satoshi-Variable', Consolas, Courier, Tahoma, Geneva, sans-serif;
+  letter-spacing: 0.05em;
   &:hover {
     color: black;
     text-decoration: none;
@@ -30,7 +32,7 @@ text-decoration: none;
 padding: 0 1rem;
 height: 100%;
 cursor: pointer;
-font-family: Consolas, Courier, Tahoma, Geneva, sans-serif;
+font-family: 'Satoshi-Variable', Consolas, Courier, Tahoma, Geneva, sans-serif;
 &:hover {
   color: black;
   text-decoration: none;

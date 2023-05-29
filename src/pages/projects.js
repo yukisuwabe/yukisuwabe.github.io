@@ -3,6 +3,7 @@ import '../style.css';
 import toastyImg from '../files/Toasty.png';
 import databaseImg from '../files/database.jpg';
 import programImg from '../files/ProgramManagement.png';
+import japaneseImg from '../files/japaneseinca.png';
 
 const Projects = () => {
     return (
@@ -11,6 +12,13 @@ const Projects = () => {
                 <h1>My projects</h1>
             </div>
             <div class='container'>
+                <div class='card'>
+                    <img class='card_img' src={japaneseImg} alt="Japanese Incarceration in Children's Books" />
+                    <a href='https://japaneseincarcerationinchildrens.vercel.app' target='_blank' rel='noopener noreferrer'>
+                        <h2 id='h2_card'>Japanese American Incarceration in Children's Books</h2>
+                    </a>
+                    <p id='p_card'>A multi-page React website discussing the importance of having history, specifically Japanese American Incarceration in Children and YA books. Utilizes simple animation and tabs within pages. </p>
+                </div>
                 <div class='card'>
                     <img class='card_img' src={toastyImg} alt='Toasty' />
                     <a href='https://www.canva.com/design/DAFI8Dn1dnU/TeLBkBhqBQarZICRrEzEmg/view?utm_content=DAFI8Dn1dnU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton' target="_blank" rel="noopener noreferrer">
