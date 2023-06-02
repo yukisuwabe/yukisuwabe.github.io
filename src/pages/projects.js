@@ -16,7 +16,7 @@ const Projects = () => {
                 <div class='card'>
                     <img class='card_img' src={camdivmg} alt="Caml Game" />
                     <a href='https://github.com/rpignatiello/Camls-Game' target='_blank' rel='noopener noreferrer'>
-                        <h2 id='h2_card'>Caml Game</h2>
+                        <h2 id='h2_card'>Camls Game</h2>
                     </a>
                     <p id='p_card'>A terminal-based game inspired by the  <a href="https://kittensgame.com/web/#" target='_blank' rel='noopener noreferrer'>Kittens Game</a>. Made with OCaml language utidivzing several divbraries.</p>
                 </div>
