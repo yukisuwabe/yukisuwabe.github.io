@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b4590379.css",
-    "main.js": "/static/js/main.bf2ecbfe.js",
+    "main.css": "/static/css/main.dd9c0aee.css",
+    "main.js": "/static/js/main.e915bc6c.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/ProgramManagement.png": "/static/media/ProgramManagement.e7a86296fbbc207dfe6f.png",
     "static/media/japaneseinca.png": "/static/media/japaneseinca.f97a2cd13fc1c9b54fd9.png",
@@ -15,6 +15,7 @@
     "static/media/Satoshi-BoldItalic.ttf": "/static/media/Satoshi-BoldItalic.95e24575ceb54c131b6b.ttf",
     "static/media/Satoshi-BlackItalic.ttf": "/static/media/Satoshi-BlackItalic.6688ad1e9589e6751829.ttf",
     "static/media/Satoshi-LightItalic.ttf": "/static/media/Satoshi-LightItalic.bdeb9dc94481cdcc43dd.ttf",
+    "static/media/caml.png": "/static/media/caml.1890a2c91339d5b198c0.png",
     "static/media/Satoshi-Medium.ttf": "/static/media/Satoshi-Medium.759562088ba19068aef8.ttf",
     "static/media/Satoshi-Regular.ttf": "/static/media/Satoshi-Regular.fe762acc7e97cb612805.ttf",
     "static/media/Satoshi-Bold.ttf": "/static/media/Satoshi-Bold.137a52d9f47dd71c6247.ttf",
@@ -50,12 +51,12 @@
     "static/media/linkedin.svg": "/static/media/linkedin.336e5e9b53f88425e719bb897f9f17e8.svg",
     "static/media/email.svg": "/static/media/email.07c51f80867750205acdf6630fec23e6.svg",
     "index.html": "/index.html",
-    "main.b4590379.css.map": "/static/css/main.b4590379.css.map",
-    "main.bf2ecbfe.js.map": "/static/js/main.bf2ecbfe.js.map",
+    "main.dd9c0aee.css.map": "/static/css/main.dd9c0aee.css.map",
+    "main.e915bc6c.js.map": "/static/js/main.e915bc6c.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4590379.css",
-    "static/js/main.bf2ecbfe.js"
+    "static/css/main.dd9c0aee.css",
+    "static/js/main.e915bc6c.js"
   ]
 }
