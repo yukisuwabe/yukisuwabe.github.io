@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Home = () => {
     return (
-        <div class="content" id="home_content">
+        <div className="content" id="home_content">
             <div id="home-container">
                 <div id="home-left">
 
