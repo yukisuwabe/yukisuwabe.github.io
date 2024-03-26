@@ -4,7 +4,7 @@ import NavBar from './components/Navbar';
 import Home from './pages/index';
 import About from './pages/about';
 import Projects from './pages/projects';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer'
 
 function App() {
