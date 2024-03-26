@@ -54,7 +54,7 @@ export const Bars = styled(FaBars)`
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 75%);
+    transform: translate(-100%, 5vh);
     font-size: 1.8rem;
     cursor: pointer;
   }
