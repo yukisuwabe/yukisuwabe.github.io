@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d7e4d7ce.css",
-    "main.js": "/static/js/main.613423ff.js",
+    "main.js": "/static/js/main.c777038e.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/ProgramManagement.png": "/static/media/ProgramManagement.e7a86296fbbc207dfe6f.png",
     "static/media/japaneseinca.png": "/static/media/japaneseinca.f97a2cd13fc1c9b54fd9.png",
@@ -10,6 +10,7 @@
     "static/media/Satoshi-VariableItalic.ttf": "/static/media/Satoshi-VariableItalic.9519fea9567e2405bc08.ttf",
     "static/media/Resume.pdf": "/static/media/Resume.78bc52b620fe13112dbb.pdf",
     "static/media/Satoshi-Variable.ttf": "/static/media/Satoshi-Variable.536fda9b164542087fc7.ttf",
+    "static/media/ai.png": "/static/media/ai.b6bc837bc37e782b928d.png",
     "static/media/Satoshi-MediumItalic.ttf": "/static/media/Satoshi-MediumItalic.5db9ec801a311bdf187b.ttf",
     "static/media/Satoshi-Italic.ttf": "/static/media/Satoshi-Italic.89c785539a22fa0dfa0f.ttf",
     "static/media/Satoshi-BoldItalic.ttf": "/static/media/Satoshi-BoldItalic.95e24575ceb54c131b6b.ttf",
@@ -52,11 +53,11 @@
     "static/media/email.svg": "/static/media/email.07c51f80867750205acdf6630fec23e6.svg",
     "index.html": "/index.html",
     "main.d7e4d7ce.css.map": "/static/css/main.d7e4d7ce.css.map",
-    "main.613423ff.js.map": "/static/js/main.613423ff.js.map",
+    "main.c777038e.js.map": "/static/js/main.c777038e.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d7e4d7ce.css",
-    "static/js/main.613423ff.js"
+    "static/js/main.c777038e.js"
   ]
 }
